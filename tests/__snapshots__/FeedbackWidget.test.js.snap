@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`insert script tag and clone child 1`] = `
+<body>
+  <div>
+    <button
+      data-servoice-trigger="true"
+      type="button"
+    >
+      Test Btn
+    </button>
+  </div>
+  <script
+    defer=""
+    src="http://localhost:7800/dist/servoice-feedback-widget.js"
+    type="text/javascript"
+  />
+</body>
+`;

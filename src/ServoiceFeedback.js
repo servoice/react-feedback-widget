@@ -1,4 +1,4 @@
-import { useEffect, Children, cloneElement } from 'react';
+import { useEffect, cloneElement } from 'react';
 
 export default function ServoiceFeedback({ children, config }) {
   useEffect(() => {
@@ -19,10 +19,6 @@ export default function ServoiceFeedback({ children, config }) {
   }, []);
 
   return (
-    <>
-      {Children.map(children, (child) =>
-        cloneElement(child, { 'data-servoice-trigger': true }),
-      )}
-    </>
+    <>{cloneElement(children, { 'data-servoice-trigger': true })}</>
   );
 }
