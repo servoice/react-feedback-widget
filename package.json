@@ -1,15 +1,22 @@
 {
   "name": "react-feedback-widget",
   "version": "1.0.0",
-  "description": "Use the SerVoice feedback widget in your reat project",
+  "description": "Collect feedback in your app with the SerVoice react feedback widget",
+  "homepage": "https://servoice.io",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "build": "webpack --config webpack-config/webpack.config.js --env env=prod"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react feedback widget",
+    "react widget"
+  ],
+  "author": "SerVoice Inc.",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/servoice/react-feedback-widget/issues"
+  },
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/plugin-transform-runtime": "^7.15.0",
