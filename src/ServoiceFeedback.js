@@ -5,7 +5,7 @@ export default function ServoiceFeedback({ children, config }) {
     if (typeof window !== 'undefined') {
       const servoiceScript = document.createElement('script');
       servoiceScript.src =
-        'http://localhost:7800/dist/servoice-feedback-widget.js';
+        'https://js.servoice.io/servoice-feedback-widget.js';
       servoiceScript.async = true;
       servoiceScript.defer = true;
       servoiceScript.type = 'text/javascript';
