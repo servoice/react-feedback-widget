@@ -12,7 +12,7 @@ exports[`insert script tag and clone child 1`] = `
   </div>
   <script
     defer=""
-    src="http://localhost:7800/dist/servoice-feedback-widget.js"
+    src="https://js.servoice.io/servoice-feedback-widget.js"
     type="text/javascript"
   />
 </body>
