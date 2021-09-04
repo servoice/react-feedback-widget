@@ -1,6 +1,6 @@
 # SerVoice React Feedback Widget
 
-The react wrapper for the [SerVoice](https://servoice.io) feedback widget. Easily collect and organize feedback from your visitors and users.
+A react wrapper for the [SerVoice](https://servoice.io) feedback widget. Easily collect and organize feedback from your visitors and users.
 
 ![Servoice Feedback Demo](assets/feedback-demo.gif)
 
