@@ -1,6 +1,6 @@
 {
   "name": "react-feedback-widget",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Collect feedback in your app with the SerVoice react feedback widget",
   "homepage": "https://servoice.io",
   "main": "dist/index.js",
