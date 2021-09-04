@@ -8,6 +8,10 @@
     "test": "jest",
     "build": "webpack --config webpack-config/webpack.config.js --env env=prod"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/servoice/react-feedback-widget"
+  },
   "keywords": [
     "react feedback widget",
     "react widget"
