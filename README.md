@@ -2,6 +2,8 @@
 
 The react wrapper for the [SerVoice](https://servoice.io) feedback widget. Easily collect and organize feedback from your visitors and users.
 
+![Servoice Feedback Demo](assets/feedback-demo.gif)
+
 ## Installation
 
 npm
@@ -38,6 +40,8 @@ const config = {
 | userFirstName | The first name of the identitfied user | Optional |
 | userLastName  | The last name of the identified user   | Optional |
 
+&nbsp;
+
 ### Wrap your component
 
 ```js
@@ -46,7 +50,11 @@ const config = {
 </ServoiceFeedback>
 ```
 
+&nbsp;
+
 > Note: There can only be one child element and it must emit a click event
+
+&nbsp;
 
 ## Full Example
 
@@ -73,6 +81,8 @@ function App() {
 export default App;
 ```
 
+Specific examples with codesandboxes coming soon.
+
 ## About
 
-This project is maintained by David Groeche and [SerVoice](https://servoice.io).
+This project is maintained by [David Groechel](https://dgroechel.com) and [SerVoice](https://servoice.io).
