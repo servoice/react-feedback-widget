@@ -2,6 +2,8 @@
 
 A react wrapper for the [SerVoice](https://servoice.io) feedback widget. Easily collect and organize feedback from your visitors and users.
 
+Need an account? Sign up [here](https://servoice.io).
+
 ![Servoice Feedback Demo](assets/feedback-demo.gif)
 
 ## Installation
@@ -32,13 +34,13 @@ const config = {
 };
 ```
 
-| Key           | Value                                  | Required |
-| ------------- | -------------------------------------- | -------- |
-| servId        | Your SerVoice portal Id                | Yes      |
-| servPID       | The SerVoice project Id                | Yes      |
-| userEmail     | The identified user in your app        | Optional |
-| userFirstName | The first name of the identitfied user | Optional |
-| userLastName  | The last name of the identified user   | Optional |
+| Key           | Value                                  | Type   | Required |
+| ------------- | -------------------------------------- | ------ | -------- |
+| servId        | Your SerVoice portal Id                | String | Yes      |
+| servPID       | The SerVoice project Id                | String | Yes      |
+| userEmail     | The identified user in your app        | String | Optional |
+| userFirstName | The first name of the identitfied user | String | Optional |
+| userLastName  | The last name of the identified user   | String | Optional |
 
 &nbsp;
 
@@ -81,7 +83,7 @@ function App() {
 export default App;
 ```
 
-Specific examples with codesandboxes coming soon.
+[Code Sandbox Example](https://codesandbox.io/s/servoice-react-feedback-example-gy6dn?file=/src/App.js)
 
 ## About
 
