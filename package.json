@@ -29,7 +29,6 @@
     "@babel/runtime": "^7.15.3",
     "@jest/globals": "^27.1.0",
     "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.0.0",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "eslint": "^7.32.0",
@@ -47,7 +46,10 @@
     "webpack-node-externals": "^3.0.0"
   },
   "peerDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "dependencies": {
+    "@testing-library/react": "^13.3.0"
   }
 }

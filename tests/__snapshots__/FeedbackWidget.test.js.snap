@@ -12,6 +12,7 @@ exports[`insert script tag and clone child 1`] = `
   </div>
   <script
     defer=""
+    id="rfw-script"
     src="https://js.servoice.io/servoice-feedback-widget.js"
     type="text/javascript"
   />

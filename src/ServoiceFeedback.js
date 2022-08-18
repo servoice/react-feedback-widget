@@ -1,24 +1,19 @@
-import { useEffect, cloneElement } from 'react';
+import { cloneElement, isValidElement } from 'react';
+import useReactFeedbackWidget from './useReactFeedbackWidget';
 
 export default function ServoiceFeedback({ children, config }) {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const servoiceScript = document.createElement('script');
-      servoiceScript.src =
-        'https://js.servoice.io/servoice-feedback-widget.js';
-      servoiceScript.async = true;
-      servoiceScript.defer = true;
-      servoiceScript.type = 'text/javascript';
+  useReactFeedbackWidget(config);
 
-      document.body.appendChild(servoiceScript);
-      servoiceScript.addEventListener('load', () => {
-        window.Servoice.config(config);
-        window.Servoice.createWidget();
-      });
-    }
-  }, []);
+  if (!children) return null;
 
-  return (
-    <>{cloneElement(children, { 'data-servoice-trigger': true })}</>
-  );
+  if (isValidElement(children)) {
+    return (
+      <>
+        {cloneElement(children, {
+          'data-servoice-trigger': true,
+          onClick: () => window.Servoice.btnClicked(),
+        })}
+      </>
+    );
+  }
 }
